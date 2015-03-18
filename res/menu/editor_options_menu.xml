@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/save"
+          android:alphabeticShortcut='s'
+           />
+   
+    <group android:id="@+id/menu_group_edit">
+        <item android:id="@+id/menu_revert"
+              android:icon="@drawable/rc"
+              />
+        <item android:id="@+id/menu_delete"
+              android:icon="@drawable/delete"
+               />
+       <!-- <item android:id="@+id/menu_t2s"
+              android:icon="@drawable/android_icon_125"
+              android:title="@string/menu_t2s" /> -->
+    </group>
+    <group android:id="@+id/menu_group_insert">
+        <item android:id="@+id/menu_discard"
+              android:icon="@drawable/disc"
+             />
+    </group>
+    <group android:id="@+id/menu_group_insert1">
+        <item android:id="@+id/menu_discard1"
+              android:icon="@drawable/ttsb"
+              />
+    </group>
+    
+</menu>
